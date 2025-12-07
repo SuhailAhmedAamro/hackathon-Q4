@@ -15,20 +15,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  // *** Aapki GitHub Pages ki URL ***
   url: 'https://SuhailAhmedAamro.github.io',
   
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // *** Aapki Repository ka naam ***
-  baseUrl: '/hackathon-Q4/', 
+  // *** FINAL FIX: Vercel deployment ke liye '/' set kiya gaya ***
+  baseUrl: '/', 
 
   // GitHub pages deployment config.
-  // *** Aapka GitHub username ***
   organizationName: 'SuhailAhmedAamro', 
-  // *** Aapki repository ka naam ***
   projectName: 'hackathon-Q4', 
 
-  // *** FIX: Broken links ko ignore karne ke liye 'throw' se 'warn' kiya ***
+  // Broken links ko sirf warning dega, build fail nahi karega.
   onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -45,8 +41,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/SuhailAhmedAamro/hackathon-Q4/tree/main/',
         },
@@ -56,8 +50,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/SuhailAhmedAamro/hackathon-Q4/tree/main/',
           // Useful options to enforce blogging best practices
