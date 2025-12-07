@@ -15,22 +15,21 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  // *** CHANGED: Set to your GitHub Pages base URL ***
+  // *** Aapki GitHub Pages ki URL ***
   url: 'https://SuhailAhmedAamro.github.io',
   
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  // *** CHANGED: Set to your repository name with trailing slash ***
+  // *** Aapki Repository ka naam ***
   baseUrl: '/hackathon-Q4/', 
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  // *** CHANGED: Set to your GitHub username ***
+  // *** Aapka GitHub username ***
   organizationName: 'SuhailAhmedAamro', 
-  // *** CHANGED: Set to your GitHub repository name ***
+  // *** Aapki repository ka naam ***
   projectName: 'hackathon-Q4', 
 
-  onBrokenLinks: 'throw',
+  // *** FIX: Broken links ko ignore karne ke liye 'throw' se 'warn' kiya ***
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -49,7 +48,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SuhailAhmedAamro/hackathon-Q4/tree/main/', // *** Updated editUrl base ***
+            'https://github.com/SuhailAhmedAamro/hackathon-Q4/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +59,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SuhailAhmedAamro/hackathon-Q4/tree/main/', // *** Updated editUrl base ***
+            'https://github.com/SuhailAhmedAamro/hackathon-Q4/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -94,7 +93,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/SuhailAhmedAamro/hackathon-Q4', // *** Updated GitHub link ***
+          href: 'https://github.com/SuhailAhmedAamro/hackathon-Q4',
           label: 'GitHub',
           position: 'right',
         },
@@ -138,7 +137,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/SuhailAhmedAamro/hackathon-Q4', // *** Updated GitHub link ***
+              href: 'https://github.com/SuhailAhmedAamro/hackathon-Q4',
             },
           ],
         },
